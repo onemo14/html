@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <style>
+    body{ width: 500px;
+       margin: auto;}
+
+    h1{text-align: center;}
+    #wrap{width: 100%;
+        height: 700px;
+        text-align: center;
+        background: cornflowerblue;
+        box-sizing: border-box;
+        padding: 50px 80px 40px;
+        margin: 30px 0px;
+
+    }
+    .oz_type, .locate, .type{
+     width: 100%;
+     height: 40px;
+     padding-top: 5px;
+     margin-top: 10px;
+     border-radius: 5px;
+    }
+    .phone{width: 25%;
+             height: 25px;
+              border-radius: 5px;
+              margin-top: 10px;
+              margin-bottom: 15px;
+               padding-top: 5px ;}
+
+     .button{width: 100%;
+               height: 70px;
+               text-align: right;
+              margin: 10px 0;
+              }          
+     .bt1{border-radius: 5px;}
+     .bt{padding: 0 20px;
+             margin: 25px 0px;
+              border-radius: 5px;}         
+  </style>
+</head>
+<body>
+  <div id="wrap">
+      <div id="header">
+        <h1>oz초격차 회원가입</h1>  
+         <input type="email" placeholder="이메일을 입력하세요" class="oz_type">
+         <br>
+         <input type="text" placeholder="이름을 입력하세요" class="oz_type">
+         <br>
+         <input type="password" placeholder="비밀번호를 입력하세요" class="oz_type">
+         <br>
+         <input type="password" placeholder="비밀번호를 입력하세요" class="oz_type">
+         <div >
+          <input type="text"  placeholder="010" class="phone">
+          <span>-</span>
+          <input type="text"  placeholder="1234"  class="phone">
+          <span>-</span>
+          <input type="text"  placeholder="5678"  class="phone">
+          
+         </div>
+      </div>
+      <div class="button">
+          <span>000000</span>
+          <input type="button" value="인증번호 전송"  class="bt1">
+          <br>
+          <span>3:00</span>
+          <input type="submit" value="인증 완료" class="bt">
+      </div>
+      <select class="locate">
+        <option>-지역을 선택하세요-</option>
+        <option value="#">충청남도</option>
+        <option value="#">경기도</option>
+        <option value="#">전라남도</option>
+        <option value="#">전라북도</option>
+        <option value="#">강원도</option>
+        <option value="#">충청북도</option>
+        <option value="#">경상남도</option>
+        <option value="#">경상북도</option>
+      </select>
+             <form action="#" id="man">
+              <input type="radio">
+              <label for="radio">여성</label>
+              <input type="radio">
+              <label for="radio">남성</label>
+             </form>
+             <input type="button" value="가입하기" class="type">
+  </div>
+</body>
+</html>
