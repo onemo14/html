@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+    body{font-family: '맑은고딕' ;
+          font-size:16px; 
+         color: #555555;}
+#wrap{width: 100%;
+      }
+#header{
+  width: 100%;
+  height: 130px;
+  
+}
+#header .header_in{
+  float: left;
+  margin: 20px 0 0 28px;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 10px;
+}
+#header .fr{ 
+  font-weight: 900;
+  font-size: 20px;
+  margin: 22px 0 0 15px ;
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+#header .number{
+  font-size: 20px;
+float: left;
+  width: 50px;
+  height: 50px;
+  position: relative; top: 60px; right: 45px;
+}
+#main{
+  width: 100%;
+  height: 840px;
+  background-color: orange;
+}
+#footer{
+  width: 100%;
+  height: 180px;
+}
+.bt{
+  font-size: 30px;
+  float: right;
+  width: 200px;
+  height: 290px;
+  background-color: orange;
+  border-radius:  20px;
+  border: 2px solid black;
+}
