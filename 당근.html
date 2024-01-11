@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>더덕더덕</title>
+  <style>
+  *{
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 16px ;
+  }
+  body{
+    margin: 0;
+  }
+  .flex{
+    display: flex;
+  }
+  </style>
+  <link rel="stylesheet" href="헤더.css">
+  <link rel="stylesheet" href="info.css">
+  <link rel="stylesheet" href="notice.css">
+  <link rel="stylesheet" href="banner.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+ <div class="container">
+    <header class="header ">
+      <div class="header-container flex">
+        <div class="header-container_logo">당근마켓</div>
+        <nav class="header-container_nav flex">
+          <ul>
+            <li>중고거래</li>
+            <li>동네거래</li>
+            <li class="active">알바</li>
+            <li>부동산 직거래</li>
+            <li>중고차 직거래</li>
+          </ul>
+        </nav>
+        <div class="header-container_input flex">
+          <span class="icon glass">
+              <input type="button" value="&#128269;">
+          </span>
+          <span>
+            <input type="text" class="search" placeholder="물품이나 동네를 검색해보세요">
+          </span>
+          <span class="icon menu">
+            <input type="button" value="&#9776;">
+          </span>
+          <span>
+            <input type="button" value="채팅하기" class="chat">
+          </span>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main_in">
+       <h1>당신 근처의 <br> 지역 생활 커뮤니티</h1>
+       <p>동네라서 가능한 모든 것
+        <br>당근에서 가까운 이웃과 함께해요
+       </p>
+       <input type="button" value="Google Play" class="bt1">
+       <input type="button" value="App Store" class="bt2">
+       <img srcset="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/rebranded-image-top-e765d561ee9df7f5ab897f622b8b5a35aaa70314f734e097ea70e6c83bdd73f1.webp  alt="중고거래, 동네생활 질문글, 알바와 동네업체" src="https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/rebranded-image-top-eb44f81acb1938b57ba029196887cdd56fbb66dc46aa5d8c6d8392a7d8c9e671.png">
+      </div>
+    </main>
+ </div>
+</body>
+</html>
