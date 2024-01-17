@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.ask {
+  margin-top: 40px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bar{
+  text-align: center;
+}
